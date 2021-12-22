@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80a7809c-1f0c-4377-b3fe-477115d41657" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pytracking/experiments/jzhang_experiments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp50_oxuva.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INSTALL.md" beforeDir="false" afterPath="$PROJECT_DIR$/INSTALL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODEL_ZOO.md" beforeDir="false" afterPath="$PROJECT_DIR$/MODEL_ZOO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/actors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/actors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/actors/base_actor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/actors/base_actor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/actors/bbreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/actors/bbreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/actors/tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/actors/tracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/admin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/admin/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/admin/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/admin/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/admin/loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/admin/loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/admin/model_constructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/admin/model_constructor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/admin/multigpu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/admin/multigpu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/admin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/admin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/admin/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/admin/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/admin/tensorboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/admin/tensorboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data/image_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data/image_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data/processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data/processing_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data/processing_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data/sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data/sampler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data_specs/got10k_train_split.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data_specs/got10k_train_split.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data_specs/got10k_val_split.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data_specs/got10k_val_split.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data_specs/got10k_vot_train_split.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data_specs/got10k_vot_train_split.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data_specs/got10k_vot_val_split.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data_specs/got10k_vot_val_split.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/data_specs/lasot_train_split.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/data_specs/lasot_train_split.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/dataset/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/dataset/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/dataset/base_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/dataset/base_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/dataset/coco_seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/dataset/coco_seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/dataset/got10k.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/dataset/got10k.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/dataset/imagenetvid.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/dataset/imagenetvid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/dataset/lasot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/dataset/lasot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/dataset/tracking_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/dataset/tracking_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/_assets/prroi_visualization.png" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/_assets/prroi_visualization.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/functional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/prroi_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/prroi_pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/src/prroi_pooling_gpu.c" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/src/prroi_pooling_gpu.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/src/prroi_pooling_gpu.h" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/src/prroi_pooling_gpu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/src/prroi_pooling_gpu_impl.cu" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/src/prroi_pooling_gpu_impl.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/src/prroi_pooling_gpu_impl.cuh" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/src/prroi_pooling_gpu_impl.cuh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/tests/test_prroi_pooling2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/tests/test_prroi_pooling2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/src/prroi_pooling_gpu_impl.cu" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/src/prroi_pooling_gpu_impl.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/src/prroi_pooling_gpu_impl.cuh" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/external/PreciseRoIPooling/src/prroi_pooling_gpu_impl.cuh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/backbone/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/backbone/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/backbone/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/backbone/resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/backbone/resnet18_vggm.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/backbone/resnet18_vggm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/bbreg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/bbreg/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/bbreg/atom.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/bbreg/atom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/bbreg/atom_iou_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/bbreg/atom_iou_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/layers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/layers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/layers/activation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/layers/activation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/layers/blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/layers/blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/layers/distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/layers/distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/layers/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/layers/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/layers/normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/layers/normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/layers/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/layers/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/loss/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/loss/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/loss/target_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/loss/target_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/target_classifier/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/target_classifier/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/target_classifier/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/target_classifier/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/target_classifier/initializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/target_classifier/initializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/target_classifier/linear_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/target_classifier/linear_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/target_classifier/optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/target_classifier/optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/tracking/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/tracking/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/models/tracking/dimpnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/models/tracking/dimpnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/run_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/run_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/train_settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/train_settings/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/train_settings/bbreg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/train_settings/bbreg/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/train_settings/bbreg/atom_default.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/train_settings/bbreg/atom_default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/train_settings/dimp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/train_settings/dimp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/train_settings/dimp/dimp18.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/train_settings/dimp/dimp18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/train_settings/dimp/dimp50.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/train_settings/dimp/dimp50.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/trainers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/trainers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/trainers/base_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/trainers/base_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/trainers/ltr_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/trainers/ltr_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/.figs/LaSOT.png" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/.figs/LaSOT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/.figs/NFS.png" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/.figs/NFS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/.figs/OTB-100.png" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/.figs/OTB-100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/.figs/UAV123.png" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/.figs/UAV123.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/.figs/atom_overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/.figs/atom_overview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/.figs/dimp_overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/.figs/dimp_overview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/.figs/visdom.png" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/.figs/visdom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/VOT/tracker_DiMP.m" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/VOT/tracker_DiMP.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/VOT/vot.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/VOT/vot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/got10kdataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/got10kdataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/lasotdataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/lasotdataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/mobifacedataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/mobifacedataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/nfsdataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/nfsdataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/otbdataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/otbdataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/running.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/running.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/tpldataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/tpldataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/trackingnetdataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/trackingnetdataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/uavdataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/uavdataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/evaluation/votdataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/evaluation/votdataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/experiments/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/experiments/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/experiments/mobiface.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/experiments/mobiface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/experiments/myexperiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/experiments/myexperiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/augmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/augmentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/deep.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/deep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/featurebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/featurebase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/net_wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/net_wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/features/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/features/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/libs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/libs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/libs/complex.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/libs/complex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/libs/dcf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/libs/dcf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/libs/fourier.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/libs/fourier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/libs/operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/libs/operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/libs/optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/libs/optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/libs/tensordict.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/libs/tensordict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/libs/tensorlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/libs/tensorlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/atom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/atom/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/atom/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/atom/default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/atom/default_vot.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/atom/default_vot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/dimp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/dimp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp18.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp18_vot.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp18_vot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp50.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp50.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp50_vot.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/dimp/dimp50_vot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/eco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/eco/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/parameter/eco/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/parameter/eco/default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/run_experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/run_experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/run_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/run_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/run_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/run_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/run_vot.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/run_vot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/run_webcam.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/run_webcam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/atom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/atom/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/atom/atom.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/atom/atom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/atom/optim.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/atom/optim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/base/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/base/basetracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/base/basetracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/dimp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/dimp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/dimp/dimp.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/dimp/dimp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/eco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/eco/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/eco/eco.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/eco/eco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/tracker/eco/optim.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/tracker/eco/optim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/utils/convert_vot_anno_to_rect.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/utils/convert_vot_anno_to_rect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/utils/gdrive_download" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/utils/gdrive_download" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/utils/loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/utils/loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/utils/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/utils/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/utils/plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/utils/plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytracking/utils/visdom.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytracking/utils/visdom.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="375462705">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1057" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1057" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-300576759">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="19" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1043560652">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="40" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-714855953">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="439" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="439" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-574628073">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="527" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="527" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-771141577">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="150" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="150" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+          <entry key="result" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1640899719">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="178" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="178" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="m" value="1" />
+          <entry key="py" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="20" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="2071101538">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="264" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="264" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+          <entry key="py" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="27" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1792920180">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="618" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="618" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-513729261">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="554" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="554" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="975336927">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1518418368">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="103" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="103" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ltr/admin/loading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytracking/tracker/atom/atom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1876">
+              <caret line="188" column="53" selection-start-line="188" selection-start-column="53" selection-end-line="188" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytracking/tracker/dimp/dimp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7006">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytracking/evaluation/otbdataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytracking/evaluation/oxuvadataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="82" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytracking/evaluation/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="81" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytracking/evaluation/running.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytracking/evaluation/local.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytracking/libs/optimization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1739">
+              <caret line="605" column="30" selection-start-line="605" selection-start-column="30" selection-end-line="605" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytracking/tracker/atom/optim.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="90" column="62" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>self.problem</find>
+      <find>apply</find>
+      <find>localize_target</find>
+      <find>apply_filter</find>
+      <find>memory</find>
+      <find>0.000</find>
+      <find>0.00</find>
+      <find>128</find>
+      <find>self.dir</find>
+      <find>64</find>
+      <find>0.00002</find>
+      <find>0.00001</find>
+      <find>0.0000</find>
+      <find>09</find>
+      <find>sample</find>
+      <find>training</find>
+      <find>generate_init_samples</find>
+      <find>replic</find>
+      <find>log_step_length</find>
+      <find>_store_outputs</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pytracking/evaluation/otbdataset.py" />
+        <option value="$PROJECT_DIR$/pytracking/libs/operation.py" />
+        <option value="$PROJECT_DIR$/pytracking/parameter/atom/default.py" />
+        <option value="$PROJECT_DIR$/pytracking/tracker/atom/optim.py" />
+        <option value="$PROJECT_DIR$/pytracking/run_experiment.py" />
+        <option value="$PROJECT_DIR$/pytracking/tracker/atom/atom.py" />
+        <option value="$PROJECT_DIR$/pytracking/features/preprocessing.py" />
+        <option value="$PROJECT_DIR$/ltr/models/target_classifier/linear_filter.py" />
+        <option value="$PROJECT_DIR$/pytracking/evaluation/__init__.py" />
+        <option value="$PROJECT_DIR$/pytracking/evaluation/running.py" />
+        <option value="$PROJECT_DIR$/pytracking/parameter/dimp/dimp50.py" />
+        <option value="$PROJECT_DIR$/pytracking/parameter/dimp/dimp50_oxuva.py" />
+        <option value="$PROJECT_DIR$/pytracking/tracker/base/basetracker.py" />
+        <option value="$PROJECT_DIR$/pytracking/experiments/jzhang_experiments.py" />
+        <option value="$PROJECT_DIR$/pytracking/evaluation/oxuvadataset.py" />
+        <option value="$PROJECT_DIR$/pytracking/evaluation/tlpdataset.py" />
+        <option value="$PROJECT_DIR$/pytracking/tracker/dimp/dimp.py" />
+        <option value="$PROJECT_DIR$/pytracking/evaluation/data.py" />
+        <option value="$PROJECT_DIR$/ltr/models/target_classifier/optimizer.py" />
+        <option value="$PROJECT_DIR$/ltr/models/layers/filter.py" />
+        <option value="$PROJECT_DIR$/pytracking/evaluation/local.py" />
+        <option value="$PROJECT_DIR$/pytracking/libs/optimization.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
+    <option name="y" value="31" />
+    <option name="width" value="2048" />
+    <option name="height" value="1089" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pytracking_RLS-DiMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytracking_RLS-DiMP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytracking_RLS-DiMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytracking_RLS-DiMP" type="462c0819:PsiDirectoryNode" />
+              <item name="pytracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytracking_RLS-DiMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytracking_RLS-DiMP" type="462c0819:PsiDirectoryNode" />
+              <item name="pytracking" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytracking_RLS-DiMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytracking_RLS-DiMP" type="462c0819:PsiDirectoryNode" />
+              <item name="pytracking" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytracking_RLS-DiMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytracking_RLS-DiMP" type="462c0819:PsiDirectoryNode" />
+              <item name="pytracking" type="462c0819:PsiDirectoryNode" />
+              <item name="tracker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytracking_RLS-DiMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytracking_RLS-DiMP" type="462c0819:PsiDirectoryNode" />
+              <item name="pytracking" type="462c0819:PsiDirectoryNode" />
+              <item name="tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="dimp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pytracking/parameter/dimp" />
+      <recent name="$PROJECT_DIR$/pytracking/experiments" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_experiment">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="pytracking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.conda/envs/pytracking/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="atom default --runid 1 --dataset otb --sequence Basketball" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_experiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytracking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytracking/run_experiment.py" />
+      <option name="PARAMETERS" value="jzhang_experiments dimp50_oxuva_test" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytracking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytracking/run_tracker.py" />
+      <option name="PARAMETERS" value="atom default --runid 1 --dataset otb --sequence David --debug 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run_tracker" />
+      <item itemvalue="Python.run_experiment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_experiment" />
+        <item itemvalue="Python.run_tracker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80a7809c-1f0c-4377-b3fe-477115d41657" name="Default Changelist" comment="" />
+      <created>1569671334692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569671334692</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="8" y="31" width="2048" height="1089" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11346818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26861167" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31690142" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11380505" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26861167" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32077393" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pytracking/tracker/atom/atom.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pytracking/tracker/atom/atom.py</url>
+          <line>228</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pytracking/libs/optimization.py</url>
+          <line>591</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ltr/models/tracking/dimpnet.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pytracking/libs/tensordict.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/external/PreciseRoIPooling/pytorch/prroi_pool/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/result" />
+    <entry file="file://$PROJECT_DIR$/pytracking/parameter/atom/default_vot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/libs/tensorlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/run_vot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/VOT/vot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODEL_ZOO.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/VOT/tracker_DiMP.m">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/run_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytracking/lib/python3.7/site-packages/torch/nn/modules/module.py" />
+    <entry file="file://$USER_HOME$/.conda/envs/pytracking/lib/python3.7/site-packages/torch/autograd/grad_mode.py" />
+    <entry file="file://$USER_HOME$/.conda/envs/pytracking_new/lib/python3.7/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="3483" lean-forward="true" selection-start-line="3476" selection-start-column="73" selection-end-line="3483" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/models/target_classifier/initializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1611" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/models/backbone/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/libs/operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytracking_new/lib/python3.7/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="726" selection-start-line="726" selection-end-line="726" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/pytracking_new/lib/python3.7/site-packages/torch/autograd/grad_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/parameter/dimp/dimp18.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/models/tracking/dimpnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/admin/model_constructor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/features/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/utils/loading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/parameter/atom/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/features/net_wrappers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/tpldataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/trackingnetdataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/experiments/myexperiments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/parameter/dimp/dimp50_oxuva.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="67" column="77" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/parameter/dimp/dimp50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/uavdataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="4" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/tlpdataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/run_experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/tracker/base/basetracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/experiments/jzhang_experiments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/otbdataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/oxuvadataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="82" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="81" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/running.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/models/target_classifier/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3090">
+          <caret line="213" column="41" selection-start-line="213" selection-start-column="41" selection-end-line="213" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/models/target_classifier/linear_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/models/target_classifier/features.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/models/layers/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltr/admin/loading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/evaluation/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/libs/optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1739">
+          <caret line="605" column="30" selection-start-line="605" selection-start-column="30" selection-end-line="605" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/tracker/atom/optim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="90" column="62" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/tracker/atom/atom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1876">
+          <caret line="188" column="53" selection-start-line="188" selection-start-column="53" selection-end-line="188" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytracking/tracker/dimp/dimp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7006">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
