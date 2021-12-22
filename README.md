@@ -23,7 +23,13 @@ If you're using this code in a publication, please cite [our paper](https://open
 The above codes are tested on 64 bit Linux (Ubuntu 18.04 LTS) with the following Anaconda environment:
 >> * PyTorch (= 1.7.1+cu110)
 >> * Python (= 3.7.4)
-  
+
+### Acknowledgement
+
+The above codes are modified based on the following repositories::
+>> [RT-MDNet](https://github.com/IlchaeJung/RT-MDNet)
+>> [pytracking](https://github.com/visionml/pytracking)
+
 ### Online Tracking
 
 **Pretrained Model**
