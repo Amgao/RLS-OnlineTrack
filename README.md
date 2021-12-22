@@ -27,8 +27,8 @@ The above codes are tested on 64 bit Linux (Ubuntu 18.04 LTS) with the following
 ### Acknowledgement
 
 The above codes are modified based on the following repositories::
->> [RT-MDNet](https://github.com/IlchaeJung/RT-MDNet)
->> [pytracking](https://github.com/visionml/pytracking)
+>> * [RT-MDNet](https://github.com/IlchaeJung/RT-MDNet)
+>> * [pytracking](https://github.com/visionml/pytracking)
 
 ### Online Tracking
 
