@@ -1,0 +1,7 @@
+setup.py
+/home/amgao/RT-MDNet/modules/roi_align/src/roi_align_cuda.cpp
+/home/amgao/RT-MDNet2/modules/roi_align/src/roi_align_cuda.cpp
+RT_MDNet.egg-info/PKG-INFO
+RT_MDNet.egg-info/SOURCES.txt
+RT_MDNet.egg-info/dependency_links.txt
+RT_MDNet.egg-info/top_level.txt
