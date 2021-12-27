@@ -35,6 +35,7 @@ The above codes are modified based on the following repositories::
 **Pretrained Model**
 >> * The off-the-shelf pretrained model in RT-MDNet is used for our testing: [RT-MDNet-ImageNet-pretrained](https://www.dropbox.com/s/lr8uft05zlo21an/rt-mdnet.pth?dl=0).
 >> * The off-the-shelf pretrained model in DiMP is used for our testing: [dimp50.pth](https://github.com/visionml/pytracking/blob/master/MODEL_ZOO.md#Models).
+>> * The pretrained DiMP model by ourselves following the GOT10k protocol: [dimp50_got10k.pth.tar](https://drive.google.com/file/d/1KlE2SU6qoCtV2Md4ueX51ACnSJ7zCNUJ/view?usp=sharing).
 
 **Demo for RLS-RTMDNet**
 >> * 'Run.py' for OTB and UAV123
