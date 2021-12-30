@@ -10,11 +10,11 @@ RLS-OnlineTrack is dedicated to improving online tracking parts of both RT-MDNet
 If you're using this code in a publication, please cite [our paper](https://arxiv.org/abs/2112.14016).
 
 	@article{Gao_2021_RLS,
-  	title={Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking},
-  	author={Gao, Jin and Lu, Yan and Qi, Xiaojuan and Kou, Yutong and Li, Bing and Li, Liang and Yu, Shan and Hu, Weiming},
-  	journal={CoRR},
-  	year={2021},
-  	url={https://arxiv.org/abs/2112.14016}
+   	title={Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking},
+   	author={Gao, Jin and Lu, Yan and Qi, Xiaojuan and Kou, Yutong and Li, Bing and Li, Liang and Yu, Shan and Hu, Weiming},
+   	journal={CoRR},
+   	year={2021},
+   	url={https://arxiv.org/abs/2112.14016}
 	}
 	
 	@InProceedings{Gao_2020_RLS,
